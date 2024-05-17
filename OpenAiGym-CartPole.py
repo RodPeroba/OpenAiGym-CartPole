@@ -7,7 +7,6 @@ class GymAgent():
     def __init__(self, env_name) -> None:
         self.env = None
         self.env_name = env_name
-        self.model = None
         self.actions = None
         self.state = None
         self.agent = None
